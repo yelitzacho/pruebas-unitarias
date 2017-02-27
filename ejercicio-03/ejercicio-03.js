@@ -1,5 +1,10 @@
 function resta(numero1,numero2) {
-  //Escribe tu codigo aqui
+
+  if (numero1 == undefined || numero2 == undefined) {
+    return "Error";
+  } else {
+    return numero1 - numero2;
+  }
 }
 
 //NO TOCAR ESTE CODIGO O EXPLOTARA LA PC EN 10 SEGUNDOS
